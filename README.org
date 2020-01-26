@@ -5,5 +5,5 @@ Esto es texto normal.
 
 #+BEGIN_SRC python
 if a == b:
-print(a)
+    print(a)
 #+END_SRC
