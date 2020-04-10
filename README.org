@@ -1,9 +1,0 @@
-* Esto es nivel 1
-** Esto es nivel 2
-
-Esto es texto normal.
-
-#+BEGIN_SRC python
-if a == b:
-    print(a)
-#+END_SRC
