@@ -1,1 +1,1 @@
-[Blog](https://edoelas.github.io/tfgBlog/)
+[Blog](https://edoelas.github.io/tfgblog/)

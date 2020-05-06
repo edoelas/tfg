@@ -11,6 +11,7 @@ class Throw(ActionType):
     def __init__(self):
         self.emiting_area: Area = Area(2,3,AreaShape.NORM1)
         self.receiving_area: Area = Area(0,1,AreaShape.CROSS)
+        self.id = 3
 
     def execute(self,emitter: Entity,target_position: Position, map: Map) -> bool:
         if self.emiting_area.in_area(emitter.position, target_position):

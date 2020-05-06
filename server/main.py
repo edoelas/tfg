@@ -6,50 +6,57 @@ from classes.Entity import Entity
 from classes.Client import Client
 from classes.Map import Map
 
+import json
+import os
+
 from classes.actions.Move import Move
 from classes.actions.Strike import Strike
 
 if __name__ == "__main__":
+    game = Game("localhost", 1234)
+    with open('./games/g1.json') as g1:
+        game_data = json.load(g1)
+        game.load_game(game_data)
+        print(game.map.entity_table[1])
 
-    map1 = Map()
+        with open('./client_messages/cm1.json') as cm1:
+            client_actions_data = json.load(cm1)
+            game.unserialize_client([client_actions_data])
 
-    ground_matrix = [
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,2,2],
-        [0,0,2,1],
-    ]
+            print(game.map.entity_table[1])
 
-    entity_matrix = [
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0],
-    ]
-    map1.load_map(ground_matrix,entity_matrix)
+    # map1 = Map()
 
-    client1 = Client("localhost",1000)
-    action_list = [Move(),Strike(),Throw(), Heal()]
-    entity1 = Entity("test",100,1,action_list,client1,Position(2,0),map1,1)
-    entity2 = Entity("test",100,1,action_list,client1,Position(1,0),map1,3)
-    entity3 = Entity("test",100,1,action_list,client1,Position(3,1),map1,4)
+    # entity_matrix = [
+    #     [0,0,0,0],
+    #     [0,0,0,0],
+    #     [0,0,0,0],
+    #     [0,0,0,0],
+    # ]
+    # map1.load_map(ground_matrix,entity_matrix)
 
-    game = Game("ip", 1000, "asd")
+    # client1 = Client("localhost",1000)
+    # action_list = [Move(),Strike(),Throw(), Heal()]
+    # entity1 = Entity("test",100,1,action_list,client1,Position(2,0),map1,1)
+    # entity2 = Entity("test",100,1,action_list,client1,Position(1,0),map1,3)
+    # entity3 = Entity("test",100,1,action_list,client1,Position(3,1),map1,4)
 
-
-    print("-------")
-    print(map1)
-    print(entity1.health)
-    print(entity2.health)
-    print(entity3.health)
-
-    position3 = Position(2,0)
-    entity1.load_action(action_list[3],position3)
-    entity1.execute_action()
+    # game = Game("ip", 1000, "asd")
 
 
-    print("---------------")
-    print(map1)
-    print(entity1.health)
-    print(entity2.health)
-    print(entity3.health)
+    # print("-------")
+    # print(map1)
+    # print(entity1.health)
+    # print(entity2.health)
+    # print(entity3.health)
+
+    # position3 = Position(2,0)
+    # entity1.load_action(action_list[3],position3)
+    # entity1.execute_action()
+
+
+    # print("---------------")
+    # print(map1)
+    # print(entity1.health)
+    # print(entity2.health)
+    # print(entity3.health)

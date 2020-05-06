@@ -14,3 +14,6 @@ class Action:
 
     def execute(self) -> None:
         self.action_type.execute(self.emiter,self.target_position, self.map)
+
+    def __str__(self):
+        return str(self.action_type) + "( " + str(self.target_position.x) + ", "+ str(self.target_position.x) +")"

@@ -1,0 +1,46 @@
+[
+	[{}, {
+		"IP": "localhost",
+		"port": 1111,
+		"name": "player1",
+		"ID": 1,
+		"team": 1,
+		"life": 8,
+		"max_health": 8,
+		"mana": 4,
+		"max_mana": 4,
+		"possible_actions": [1, 2, 4],
+		"taken_actions": [
+			[2, 1, 0],
+			[2, 2, 0],
+			[2, 2, 2]
+		]
+	}, {}],
+	[{}, {
+		"IP": "localhost",
+		"port": 1111,
+		"name": "wall",
+		"ID": 128,
+		"team": 0,
+		"life": -1,
+		"max_health": -1,
+		"mana": -1,
+		"max_mana": -1,
+		"possible_actions": [],
+		"taken_actions": []
+
+	}, {}],
+	[{}, {}, {
+		"IP": "localhost",
+		"port": 1111,
+		"name": "player2",
+		"ID": 2,
+		"team": 2,
+		"life": 6,
+		"max_health": 6,
+		"mana": 6,
+		"max_mana": 6,
+		"possible_actions": [1, 2, 3],
+		"taken_actions": []
+	}]
+]
