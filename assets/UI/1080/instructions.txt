@@ -1,0 +1,6 @@
+Tile size: x3
+Font size: x3 (48)
+Icon character: 64x64 px
+Icon character small: 32x32 px
+Icon ability:48x48 px
+Icon ability small: 32x32 px
