@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://UI/fonts/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://UI/elements/nine.png" type="Texture" id=2]
+
+[node name="Control" type="NinePatchRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1848.0
+margin_bottom = -1032.0
+rect_clip_content = true
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 36, 39 )
+patch_margin_left = 12
+patch_margin_top = 12
+patch_margin_right = 12
+patch_margin_bottom = 12
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_rotation = -0.288087
+custom_fonts/normal_font = ExtResource( 1 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+text = "Send!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
