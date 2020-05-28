@@ -1,0 +1,5 @@
+este archivo solo contiene ficheros que no son propios de godot:
+.png
+.obj
+.ttf
+.mp3
