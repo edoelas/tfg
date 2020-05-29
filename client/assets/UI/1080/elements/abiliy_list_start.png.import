@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/abiliy_list_start.png-81195f8d84cf678b70b51c9e070e546e.stex"
+path="res://.import/abiliy_list_start.png-e42ce21cd222da01b870d8baee5704cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/elements/abiliy_list_start.png"
-dest_files=[ "res://.import/abiliy_list_start.png-81195f8d84cf678b70b51c9e070e546e.stex" ]
+source_file="res://assets/UI/1080/elements/abiliy_list_start.png"
+dest_files=[ "res://.import/abiliy_list_start.png-e42ce21cd222da01b870d8baee5704cd.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ability_list_separator.png-690295625f0aee22d4ff4527809ac245.stex"
+path="res://.import/ability_list_separator.png-1f89a6863656d2a30491f815d21b3ecc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/elements/ability_list_separator.png"
-dest_files=[ "res://.import/ability_list_separator.png-690295625f0aee22d4ff4527809ac245.stex" ]
+source_file="res://assets/UI/1080/elements/ability_list_separator.png"
+dest_files=[ "res://.import/ability_list_separator.png-1f89a6863656d2a30491f815d21b3ecc.stex" ]
 
 [params]
 

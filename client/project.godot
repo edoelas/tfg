@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="test1"
-run/main_scene="res://Spatial.tscn"
+run/main_scene="res://3D/main.tscn"
 
 [display]
 

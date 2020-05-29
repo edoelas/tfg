@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/heal.png-ea7077be142b833a5cbff984cbdf7b09.stex"
+path="res://.import/heal.png-d5b30e22a0ecff3eb4c97bbe4aebdb90.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/icons/heal.png"
-dest_files=[ "res://.import/heal.png-ea7077be142b833a5cbff984cbdf7b09.stex" ]
+source_file="res://assets/UI/1080/icons/heal.png"
+dest_files=[ "res://.import/heal.png-d5b30e22a0ecff3eb4c97bbe4aebdb90.stex" ]
 
 [params]
 

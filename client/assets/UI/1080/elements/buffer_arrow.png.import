@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/buffer_arrow.png-025502f5b32717c82820ab9897363d02.stex"
+path="res://.import/buffer_arrow.png-4ac352900e5ba2defbbde7954bedb0d9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/elements/buffer_arrow.png"
-dest_files=[ "res://.import/buffer_arrow.png-025502f5b32717c82820ab9897363d02.stex" ]
+source_file="res://assets/UI/1080/elements/buffer_arrow.png"
+dest_files=[ "res://.import/buffer_arrow.png-4ac352900e5ba2defbbde7954bedb0d9.stex" ]
 
 [params]
 
